@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+:root {
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background-color: #f7f9fc;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(circle at 20% 20%, #e8f0ff 0, transparent 25%),
+    radial-gradient(circle at 80% 10%, #fde7ff 0, transparent 22%),
+    radial-gradient(circle at 40% 80%, #e6fff6 0, transparent 20%),
+    #f7f9fc;
+}
+
+#app {
+  height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button {
+  font: inherit;
+}
